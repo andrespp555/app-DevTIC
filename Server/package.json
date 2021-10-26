@@ -1,0 +1,22 @@
+{
+  "name": "app-devtic",
+  "version": "0.01",
+  "description": "Backend app-DevTIC",
+  "main": "index.js",
+  "author": "Cristian",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
